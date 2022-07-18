@@ -1,6 +1,6 @@
 # SM3 Length Extension Attack
 
-201900180019 胡兆杰
+201900180019 张卓龙
 
 ## 实验思路
 
@@ -18,4 +18,5 @@ SM3的消息长度是64字节或者它的倍数，如果消息的长度不足则
 
 ## 实现细节见代码注释
 
-实验结果如下图。
+实验结果如下图:
+![](https://github.com/Zhang-SDU/cst-project/blob/main/SM3/sm3_length_extension_attack/%E6%94%BB%E5%87%BB%E6%88%AA%E5%9B%BE.png)
