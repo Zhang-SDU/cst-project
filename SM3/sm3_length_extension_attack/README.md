@@ -5,10 +5,10 @@
 ## 实验思路
 
 要实现长度扩展攻击，主要需完成下面几步:
-    1.首先计算原消息(secret)的hash值
-    2.在secret+padding之后附加一段消息,用原消息的hash值作为IV计算附加消息之后的hash值,得到消息扩展后的hash1
-    3.用sm3加密伪造后的整体消息，得到hash2
-    4.验证hash1 与 hash2 是否相等
+    1. 首先计算原消息(secret)的hash值
+    2. 在secret+padding之后附加一段消息,用原消息的hash值作为IV计算附加消息之后的hash值,得到消息扩展后的hash1
+    3. 用sm3加密伪造后的整体消息，得到hash2
+    4. 验证hash1 与 hash2 是否相等
 
 **攻击原理**
 
