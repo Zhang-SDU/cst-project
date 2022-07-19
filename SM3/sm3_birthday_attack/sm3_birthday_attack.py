@@ -3,7 +3,7 @@ SM3生日攻击
     1. 随机生成2^(n/2)个消息
     2. 对2^(n/2)个消息计算hash值
     3. 寻找碰撞,并输出原像以及原像的hash值
-由于Memory的限制,只能通过截取SM3的54-bit输出来实现生日攻击
+由于Memory的限制,只能通过截取SM3的56-bit输出来实现生日攻击
 """
 from gmssl import sm3, func
 from faker import Faker
