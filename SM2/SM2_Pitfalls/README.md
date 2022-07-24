@@ -12,7 +12,7 @@ SM2 signature pitfalls
     其中1和2还分别根据推测得到的d值进行了消息的伪造并成功通过验签      
     
 ## 文件内容      
-    1. SM2.py:包含了Schnorr密钥生成、签名、验签算法      
+    1. SM2.py:包含了SM2密钥生成、签名、验签算法      
     2. SM2_pitfalls:完成4个task
 
 
