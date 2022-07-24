@@ -11,7 +11,9 @@ ECDSA signature pitfalls
     4. Malleability, e.g. (r,s) and (r,-s) are both valid signatures (验证(r,s) and (r,-s)均为合法签名)      
     其中1和2还分别根据推测得到的d值进行了消息的伪造并成功通过验签      
     
-## 文件
+## 文件内容      
+    1. ECDSA.py:包含了ECDSA密钥生成、签名、验签算法      
+    2. ECDSA_pitfalls:完成4个task
 
 
 **攻击原理**         
