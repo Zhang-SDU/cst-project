@@ -9,7 +9,9 @@ ECDSA signature pitfalls
     2. Reusing k leads to leaking of d (对不同的消息使用相同的k进行签名会泄露d)   
     3. Two users, using k leads to leaking of d, that is they can deduce each other's d (两个不同的user使用相同的k,可以相互推测对方的私钥d)     
     4. Malleability, e.g. (r,s) and (r,-s) are both valid signatures (验证(r,s) and (r,-s)均为合法签名)      
-    其中1和2还分别根据推测得到的d值进行了消息的伪造并成功通过验签
+    其中1和2还分别根据推测得到的d值进行了消息的伪造并成功通过验签      
+    
+## 文件
 
 
 **攻击原理**         
