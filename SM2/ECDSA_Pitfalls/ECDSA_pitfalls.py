@@ -148,7 +148,7 @@ def same_k_of_different_users():
 
     # 验证Alice和Bob的猜测是否正确
     print("验证Bob推测的d是否与Alice的sk相等:", True if d_A == sk_A else False)
-    print("验证Bob推测的d是否与Alice的sk相等:", True if d_B == sk_B else False)
+    print("验证Alice推测的d是否与Bob的sk相等:", True if d_B == sk_B else False)
 
 
 # ----------------------------------------------------------------------------------- #
