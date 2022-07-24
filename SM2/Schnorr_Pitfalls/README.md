@@ -3,7 +3,7 @@
 201900180019 张卓龙
 
 ## 实验内容
-ECDSA signature pitfalls
+Schnorr signature pitfalls
 本code主要完成了以下5个task:        
     1. Leaking k leads to leaking of d (k的泄露会导致泄露d)     
     2. Reusing k leads to leaking of d (对不同的消息使用相同的k进行签名会泄露d)   
