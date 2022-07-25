@@ -3,7 +3,7 @@
 201900180019 张卓龙
 
 ## 实验内容
-forge a signature to pretend that you are Satoshi
+forge a signature to pretend that you are Satoshi                
 本code主要完成了以下task:             
       当ECDSA验签算法在不验证m的情况下,能够通过公钥来伪造合法签名       
       
