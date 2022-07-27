@@ -18,7 +18,7 @@
 
 ✅**Project 4: do your best to optimize SM3 implementation (software)**(协作:张卓龙阅读论文及撰写小部分代码,刘阳完成代码撰写)                
 
-✅**Project 5: Impl Merkle Tree following RFC6962**（协作:张卓龙阅读RFC文档及撰写小部分代码,刘阳完成代码撰写）          
+✅**Project 5: Impl Merkle Tree following RFC6962**(协作:张卓龙阅读RFC文档及撰写小部分代码,刘阳完成代码撰写)                  
 
 Project 6: Try to Implement this scheme
 
