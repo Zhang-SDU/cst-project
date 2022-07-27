@@ -26,4 +26,4 @@ forge a signature to pretend that you are Satoshi
 ## 实现细节见代码注释
 
 **实验结果如下图:**
-![攻击结果](https://github.com/Zhang-SDU/cst-project/blob/main/SM2/forge_signature_pretend_Satoshi/result.png)
+![攻击结果](https://github.com/Zhang-SDU/cst-project/blob/main/Bitcon/Forge_signature_Pretend_Satoshi/result.png)
