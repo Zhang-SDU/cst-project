@@ -67,6 +67,7 @@ The commitment scheme used by MoE is SHA256-based.
 
 a. commit = SHA256(cn_id, grade, year, sig_by_moe, r)    
 
-**该README参考https://github.com/MaxIkaros/Cyberspace-Security-Innovation-and-Entrepreneurship-Practice-Course**
+## 参考指南 
+该README的编写参考https://github.com/MaxIkaros/Cyberspace-Security-Innovation-and-Entrepreneurship-Practice-Course**
 
 ![img](https://github.com/Zhang-SDU/cst-project/blob/main/readme.gif)
