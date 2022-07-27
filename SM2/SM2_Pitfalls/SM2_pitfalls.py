@@ -22,7 +22,8 @@ def sm2_sign_and_assign_k(k, sk, msg, ZA):
     s = 0
     if r != 0 and r + k != N:
         s = (inv(1 + sk, N) * (k - r * sk)) % N
-    if s != 0:  return (r, s)
+    if s != 0:
+        return (r, s)
 
 
 # 使用给定的k进行签名
@@ -120,15 +121,15 @@ def same_k_of_different_users():
     # Alice和Bob使用相同的k分别生成消息签名
     k = secrets.randbelow(N)  # 相同的k值
     # Alice
-    sk_A, pk_A = key_gen()  # A publish pk for others to verify
+    sk_A, pk_A = key_gen()  # Alice publish pk for others to verify
     print("Alice的私钥为:", "0x" + hex(sk_A)[2:].rjust(64, '0'))
     message_A = "test: SM2 reusing k_1"
     ID_A = 'SM2_reusing_k_userA'
     ZA = precompute(ID_A, A, B, G_X, G_Y, pk_A[0], pk_A[1])
     signature_A = sm2_sign_and_assign_k(k, sk_A, message_A, str(ZA))
     # Bob
-    sk_B, pk_B = key_gen()  # A publish pk for others to verify
-    print("Alice的私钥为:", "0x" + hex(sk_B)[2:].rjust(64, '0'))
+    sk_B, pk_B = key_gen()  # Bob publish pk for others to verify
+    print("BOb的私钥为:", "0x" + hex(sk_B)[2:].rjust(64, '0'))
     message_B = "test: SM2 reusing k_1"
     ID_B = 'SM2_reusing_k_userA'
     ZB = precompute(ID_B, A, B, G_X, G_Y, pk_B[0], pk_B[1])
@@ -144,7 +145,7 @@ def same_k_of_different_users():
     # d = (k - s) / (s + r)
     r2, s2 = signature_B
     d_B = (k - s2) * inv(s2 + r2, N) % N
-    print("Bob推测的d为:", '0x' + hex(d_B)[2:].rjust(64, '0'))
+    print("Alice推测的d为:", '0x' + hex(d_B)[2:].rjust(64, '0'))
 
     # 验证Alice和Bob的推测是否正确
     print("验证Bob推测的d是否与Alice的sk相等:", True if d_A == sk_A else False)
