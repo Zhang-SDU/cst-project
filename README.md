@@ -2,6 +2,12 @@
 
 山东大学网络空间安全学院（研究院）2022年网络空间安全创新创业实践课程相关project
 
+## 项目说明:        
+    1. 完成人:201900180019  张卓龙     git账户名称:Zhang-SDU    Project4、5与刘阳共同完成       
+    2. 各项目简介在各项目README中介绍        
+    3. ✅表示已完成，其余则未完成      
+    4. 项目分别由python语言、C语言完成,代码可分别在Pycharm、VS中运行           
+
 ## SM3：
 
 ✅**Project 1: implement the naïve birthday attack of reduced SM3**
@@ -10,10 +16,9 @@
 
 ✅**Project 3: implement length extension attack for SM3, SHA256, etc.**
 
-✅**Project 4: do your best to optimize SM3 implementation (software)**
+✅**Project 4: do your best to optimize SM3 implementation (software)**(协作:张卓龙阅读论文及撰写小部分代码,刘阳完成代码撰写)                
 
-
-**Project 5: Impl Merkle Tree following RFC6962**
+✅**Project 5: Impl Merkle Tree following RFC6962**（协作:张卓龙阅读RFC文档及撰写小部分代码,刘阳完成代码撰写）          
 
 Project 6: Try to Implement this scheme
 
