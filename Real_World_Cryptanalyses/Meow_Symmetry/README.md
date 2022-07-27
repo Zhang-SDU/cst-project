@@ -22,9 +22,8 @@ Find a 64-byte message under some 𝒌 fulfilling that their hash value is symme
     3. 根据Absorb函数,要保证读取的每个消息块的对称性,即保证每个读取的16字节消息的高64-bit和低64-bit相同,所以构造以下消息:"abcdefghabcdefghaijklmnhaijklmnh"                  
     ![参考](https://github.com/Zhang-SDU/cst-project/blob/main/Real_World_Cryptanalyses/Meow_Symmetry/ref2.png)                
     如图,读取的四个16-byte消息块均为左右对称.                   
-    4. 这里有一个注意点:即消息的absorb顺序:先以8个32-byte为一组吸收,不足8个后,先把padded字节吸收,再吸收长度block,再吸收剩下那不足8个的blocks;但是长度block(0,0,length,0)            
-    并没有对称特性,所以我们在构造时要保证absorb长度block后仍保持对称性.         
-    ![参考](https://github.com/Zhang-SDU/cst-project/blob/main/Real_World_Cryptanalyses/Meow_Symmetry/ref2.png)             
+    4. 这里有一个注意点:即消息的absorb顺序:先以8个32-byte为一组吸收,不足8个后,先把padded字节吸收,再吸收长度block,再吸收剩下那不足8个的blocks;但是长度block(0,0,length,0)            并没有对称特性,所以我们在构造时要保证absorb长度block后仍保持对称性.         
+    ![参考](https://github.com/Zhang-SDU/cst-project/blob/main/Real_World_Cryptanalyses/Meow_Symmetry/ref3.png)             
     这里有两个思路:      
     (1) 消息length = 0,这种情况下只需要保证Key的对称性即可         
     (2) 当消息长度小于8个32-byte时,这里以[3]中消息为例,此时先吸收padding字节即32-byte 0,再吸收长度block,所以此时需要通过Key来保证吸收长度block之后仍然保持对称性,最后吸收
