@@ -18,4 +18,5 @@ Google_Passwd_Checkup
 
 
 **实验结果如下图:**
-![恢复结果](https://github.com/Zhang-SDU/cst-project/blob/main/SM2/deduce_pk/result.png
+![result1](https://github.com/Zhang-SDU/cst-project/blob/main/SM2/Google_Passwd_Checkup/result1.png)
+![result2](https://github.com/Zhang-SDU/cst-project/blob/main/SM2/Google_Passwd_Checkup/result2.png)
