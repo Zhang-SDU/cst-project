@@ -8,7 +8,7 @@
 
 Project 10: Implement the above ECMH scheme
 
-✅**Project 11: Implement a PGP scheme with SM2** (SM2_PGP)
+Project 11: Implement a PGP scheme with SM2
 
 ✅**Project 12: implement sm2 2P sign with real network communication** (SM2_2P_Sign)
 
