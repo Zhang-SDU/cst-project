@@ -32,7 +32,7 @@ Project 6: Try to Implement this scheme
 
 Project 10: Implement the above ECMH scheme
 
-✅**Project 11: Implement a PGP scheme with SM2**
+Project 11: Implement a PGP scheme with SM2
 
 ✅**Project 12: implement sm2 2P sign with real network communication**   
 
