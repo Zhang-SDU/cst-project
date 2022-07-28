@@ -8,10 +8,10 @@
 
 Project 10: Implement the above ECMH scheme
 
-✅**Project 11: Implement a PGP scheme with SM2**
+✅**Project 11: Implement a PGP scheme with SM2** (SM2_PGP)
 
-✅**Project 12: implement sm2 2P sign with real network communication**   
+✅**Project 12: implement sm2 2P sign with real network communication** (SM2_2P_Sign)
 
-✅**Project 13: implement sm2 2P decrypt with real network communication**
+✅**Project 13: implement sm2 2P decrypt with real network communication** (SM2_2P_Decrypt)
 
 ✅**Project 14: PoC impl of the scheme, or do implement analysis by Google** (Google_Passwd_Checkup)
