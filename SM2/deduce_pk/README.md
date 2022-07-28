@@ -24,5 +24,4 @@ deduce pk from signature  with ECDSA
 ## 实现细节见代码注释
 
 **实验结果如下图:**
-![攻击结果](https://github.com/Zhang-SDU/cst-project/blob/main/SM2/ECDSA_Pitfalls/result1.png)
-![攻击结果](https://github.com/Zhang-SDU/cst-project/blob/main/SM2/ECDSA_Pitfalls/result2.png)
+![恢复结果](https://github.com/Zhang-SDU/cst-project/blob/main/SM2/deduce_pk/result.png)
