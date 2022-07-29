@@ -33,6 +33,6 @@ implement sm2 2P decrypt with real network communication
     
 ## 实现细节见代码注释      
 
-**实验结果如下图:**
+**实验结果如下图:**                
 ![server](https://github.com/Zhang-SDU/cst-project/blob/main/SM2/SM2_2P_Decrypt/result1.png)
 ![client](https://github.com/Zhang-SDU/cst-project/blob/main/SM2/SM2_2P_Decrypt/result2.png)
