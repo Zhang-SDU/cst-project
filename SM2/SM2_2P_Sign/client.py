@@ -2,7 +2,7 @@
  implement sm2 2P sign with real network communication
 Client端:
   1. 生成私钥d1以及P1 = d1^-1 * G,将P1发送给server
-  3. 与server进行交互共同签名：
+  2. 与server进行交互共同签名：
     (1) 规定两方ID以及消息msg
     (2) 计算Q1,e并发送给server
     (3) 接收r,s2,s3并计算最终签名(r, s)
