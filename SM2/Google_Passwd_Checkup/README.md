@@ -4,8 +4,8 @@
 
 
 ## 文件内容      
-    1. SM2.py:包含了SM2密钥生成、签名、验签算法      
-    2. SM2_pitfalls:完成4个task
+    1. server.py:server端      
+    2. client.py:client端
     
     
 ## 实验内容
