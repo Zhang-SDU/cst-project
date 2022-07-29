@@ -17,12 +17,13 @@ implement sm2 2P decrypt with real network communication
 ![image](https://github.com/Zhang-SDU/cst-project/blob/main/SM2/SM2_2P_Decrypt/ref.png)           
                           
 
-**交互流程**    
+## 交互流程             
   (一)Server端:
   1. 接收Client端P1 = d1^-1 * G        
   2. 生成私钥d2并计算公钥P = [(d1d2)^-1 - 1] * G         
   3. 这里Server端自己生成密文并将密文返回给client         
-  4. 与client进行交互共同解密:接收client发送的T1并返回T2给client           
+  4. 与client进行交互共同解密:接收client发送的T1并返回T2给client             
+  
   (二)Client端:       
   1. 生成私钥d1以及P1 = d1^-1 * G          
   2. 接收密文           
