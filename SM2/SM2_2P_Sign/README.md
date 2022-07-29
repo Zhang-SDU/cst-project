@@ -12,7 +12,7 @@
     
 ## 实验内容
 implement sm2 2P sign with real network communication          
-公钥:P = [(d1d2)^-1 - 1] * G   私钥:d = (d1d2)^-1 - 1                  
+公钥:P = [(d1d2)^-1 - 1] * G      私钥:d = (d1d2)^-1 - 1                  
 对于消息,Server与Client需要协作才能进行签名,因为二者均不能独自计算得到私钥                         
 ![image](https://github.com/Zhang-SDU/cst-project/blob/main/SM2/SM2_2P_Sign/ref.png)           
                           
