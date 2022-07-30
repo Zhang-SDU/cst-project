@@ -9,9 +9,9 @@
     
     
 ## 实验内容
-Google_Passwd_Checkup          
-本code模拟google检测用户名和密码是否泄露;通过该方法,用户可以在不知道server集合的情况下得知自己的用户名和密码是否泄露.                
-![image](https://github.com/Zhang-SDU/cst-project/blob/main/SM2/Google_Passwd_Checkup/ref.png)           
+    Google_Passwd_Checkup          
+    本code模拟google检测用户名和密码是否泄露;通过该方法,用户可以在不知道server集合的情况下得知自己的用户名和密码是否泄露.                
+   ![image](https://github.com/Zhang-SDU/cst-project/blob/main/SM2/Google_Passwd_Checkup/ref.png)           
                           
            
 ## 上图已给出详细的交互过程,实现细节见代码注释
