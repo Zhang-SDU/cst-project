@@ -38,3 +38,6 @@
 
 ## 实验结果如下图
 ![攻击结果](https://github.com/Zhang-SDU/cst-project/blob/main/Real_World_Cryptanalyses/Meow_Symmetry/result.png)
+
+## 参考指南
+[1] https://peter.website/meow-hash-cryptanalysis
