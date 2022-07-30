@@ -55,7 +55,7 @@
 
     4.10w叶子节点的运行结果：
 
-   ![image](https://user-images.githubusercontent.com/105548921/181914308-1026235f-a964-44af-92fe-ef36f4704af6.png)
+   ![image](https://user-images.githubusercontent.com/77322617/181918490-4d04a1d5-30e9-46b0-8e53-a3877b3d7d27.png)
 
 ## 参考指南
     [1]https://rfc2cn.com/rfc6962.html
