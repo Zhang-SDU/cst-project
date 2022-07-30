@@ -1,4 +1,4 @@
-# SM3 Optimization(与同学共同阅读论文完成)            
+# SM3 Optimization            
 
 201900180019 张卓龙               
 
