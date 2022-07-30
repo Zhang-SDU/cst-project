@@ -2,14 +2,14 @@
 
 201900180019 张卓龙
 
-## 实验内容
-SM2 signature pitfalls
-本code主要完成了以下4个task:        
-    1. Leaking k leads to leaking of d (k的泄露会导致泄露d)     
-    2. Reusing k leads to leaking of d (对不同的消息使用相同的k进行签名会泄露d)   
-    3. Two users, using k leads to leaking of d, that is they can deduce each other's d (两个不同的user使用相同的k,可以相互推测对方的私钥d)          
-    4. Same d and k between ECDSA and SM2, leads to leaking d (ECDSA与SM2使用相同的d和k而泄露d)    
-    其中1和2还分别根据推测得到的d值进行了消息的伪造并成功通过验签      
+## 实验内容:
+    SM2 signature pitfalls
+    本code主要完成了以下4个task:        
+        1. Leaking k leads to leaking of d (k的泄露会导致泄露d)     
+        2. Reusing k leads to leaking of d (对不同的消息使用相同的k进行签名会泄露d)   
+        3. Two users, using k leads to leaking of d, that is they can deduce each other's d (两个不同的user使用相同的k,可以相互推测对方的私钥d)          
+        4. Same d and k between ECDSA and SM2, leads to leaking d (ECDSA与SM2使用相同的d和k而泄露d)    
+        其中1和2还分别根据推测得到的d值进行了消息的伪造并成功通过验签      
     
 ## 文件内容      
     1. SM2.py:包含了SM2密钥生成、签名、验签算法      
