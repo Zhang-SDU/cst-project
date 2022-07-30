@@ -57,7 +57,7 @@ Project 11: Implement a PGP scheme with SM2
 
     Project 18: Find a key with hash value “\*sdu_cst_20220610\*” under a message composed of \*your name\* followed by \*your student ID\*. For example, “\*San Zhan 202000460001\*”
 
-    ✅**Project 19: Find a 64-byte message under some k fulfilling that their hash value is symmetrical** (协作:张卓龙完成算法理解,刘阳代码撰写)
+    ✅**Project 19: Find a 64-byte message under some k fulfilling that their hash value is symmetrical** (协作:张卓龙完成算法理解描述算法步骤,刘阳负责代码撰写)
 
 
 ## Real-world-ZK：
