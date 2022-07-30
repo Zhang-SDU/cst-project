@@ -14,7 +14,7 @@
     2. 前提数据:Satoshi的公钥,这里我们通过随机生成来代替Satoshi的真实公钥
 
 
-**攻击原理**         
+## 攻击原理         
     1. 在 Fn* 上随机选择u,v,计算R = (x,y) = uG + vP   (P为公钥)                 
     2. r = x mod n       
     3. e = ruv^-1 mod n          
