@@ -9,8 +9,12 @@
     2. Build inclusion proof for specified element.    
     
     3. Build exclusion proof for specified element.        
+    
  
- 
+ ## 运行指导
+
+    添加tree.h、sha256.h、node.h作为头文件，运行merkle_tree.cpp即可
+    
 
  ## 实验原理
 
@@ -26,9 +30,6 @@
 
    ![image](https://user-images.githubusercontent.com/105548921/180649667-76d9312b-a120-4761-b604-aac7a43b93f0.png)
 
-## 运行指导
-
-    添加tree.h、sha256.h、node.h作为头文件，运行merkle_tree.cpp即可
 
 ## 代码说明和运行结果
 
