@@ -16,9 +16,9 @@
 
     ✅**Project 3: implement length extension attack for SM3, SHA256, etc.**
 
-    ✅**Project 4: do your best to optimize SM3 implementation (software)**(协作:张卓龙阅读论文及撰写小部分代码,刘阳完成代码撰写)                
+    ✅**Project 4: do your best to optimize SM3 implementation (software)** (协作:张卓龙阅读论文及撰写小部分代码,刘阳完成代码撰写)                
 
-    ✅**Project 5: Impl Merkle Tree following RFC6962**(协作:张卓龙阅读RFC文档及撰写小部分代码,刘阳完成代码撰写)                  
+    ✅**Project 5: Impl Merkle Tree following RFC6962** (协作:张卓龙阅读RFC文档及撰写小部分代码,刘阳完成代码撰写)                  
 
     Project 6: Try to Implement this scheme
 
@@ -28,7 +28,7 @@
 
     ✅**Project 8: impl sm2 with RFC6979**
 
-    ✅**Project 9: verify the above pitfalls with proof-of-concept code**
+    ✅**Project 9: verify the above pitfalls with proof-of-concept code** (写作:张卓龙完成代码撰写,刘阳负责手动推导)
 
     ✅**Project 10: Implement the above ECMH scheme**
 
