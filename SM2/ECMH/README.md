@@ -17,7 +17,7 @@
          
 ## 实现细节见代码注释      
 
-**实验结果如下图:**                
+## 实验结果如下图               
 ![result1](https://github.com/Zhang-SDU/cst-project/blob/main/SM2/ECMH/result1.png)
 ![result2](https://github.com/Zhang-SDU/cst-project/blob/main/SM2/ECMH/result2.png)
 ![result3](https://github.com/Zhang-SDU/cst-project/blob/main/SM2/ECMH/result3.png)
