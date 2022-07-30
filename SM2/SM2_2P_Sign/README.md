@@ -15,7 +15,7 @@
     公钥:P = [(d1d2)^-1 - 1] * G          
     私钥:d = (d1d2)^-1 - 1                  
     对于消息,Server与Client需要协作才能进行签名,因为二者均不能独自计算得到私钥                         
-    ![image](https://github.com/Zhang-SDU/cst-project/blob/main/SM2/SM2_2P_Sign/ref.png)           
+  ![image](https://github.com/Zhang-SDU/cst-project/blob/main/SM2/SM2_2P_Sign/ref.png)           
                           
 
 ## 交互流程             
@@ -33,6 +33,6 @@
     
 ## 实现细节见代码注释      
 
-**实验结果如下图:**                
+## 实验结果如下图                
 ![server](https://github.com/Zhang-SDU/cst-project/blob/main/SM2/SM2_2P_Sign/result1.png)
 ![client](https://github.com/Zhang-SDU/cst-project/blob/main/SM2/SM2_2P_Sign/result2.png)
