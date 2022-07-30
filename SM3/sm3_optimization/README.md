@@ -18,10 +18,10 @@
     
 ## 实现细节见代码注释
 
-**测试结果如下图:**    
+## 测试结果如下图    
 ![测试结果](https://github.com/Zhang-SDU/cst-project/blob/main/SM3/sm3_optimization/result.png)      
 
 
-**参考文献**
+## 参考指南
 
 [1]杨先伟,康红娟.SM3杂凑算法的软件快速实现研究[J].智能系统学报,2015,10(06):954-959.
