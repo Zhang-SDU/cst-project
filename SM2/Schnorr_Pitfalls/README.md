@@ -36,6 +36,6 @@
 
 ## 实现细节见代码注释
 
-**实验结果如下图:**
+## 实验结果如下图
 ![攻击结果](https://github.com/Zhang-SDU/cst-project/blob/main/SM2/Schnorr_Pitfalls/result1.png)
 ![攻击结果](https://github.com/Zhang-SDU/cst-project/blob/main/SM2/Schnorr_Pitfalls/result2.png)
