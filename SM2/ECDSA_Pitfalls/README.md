@@ -16,7 +16,7 @@
     2. ECDSA_pitfalls:完成4个task
 
 
-**攻击原理**         
+## 攻击原理         
     1. Leaking k leads to leaking of d (k的泄露会导致泄露d)    
     由签名算法中s = k^(-1) * (e + dr) mod n 推得 d = (s * k - e) / r      
     2. Reusing k leads to leaking of d (对不同的消息使用相同的k进行签名会泄露d)
