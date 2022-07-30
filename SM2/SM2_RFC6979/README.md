@@ -3,8 +3,8 @@
 201900180019 张卓龙
 
 ## 实验内容
-impl sm2 with RFC6979             
-本code实现sm2的加解密算法以及签名验签算法                  
+    impl sm2 with RFC6979             
+    本code实现sm2的加解密算法以及签名验签算法                  
     
 ## 实现原理         
     按照ppt所给出的SM2 Parameters、SM2 Signature Algorithm、SM2 Verify Algorithm、SM2 Encryption、SM2 Decryption进行实现
