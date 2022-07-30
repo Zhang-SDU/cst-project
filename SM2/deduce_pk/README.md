@@ -23,5 +23,5 @@
 
 ## 实现细节见代码注释
 
-**实验结果如下图:**
+## 实验结果如下图
 ![恢复结果](https://github.com/Zhang-SDU/cst-project/blob/main/SM2/deduce_pk/result.png)
