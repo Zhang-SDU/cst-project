@@ -14,6 +14,6 @@
 
 ## 实现细节见代码注释
 
-**实验结果如下图(以32bit hash碰撞为例):**    
+## 实验结果如下图(以32bit hash碰撞为例)    
 ![攻击结果](https://github.com/Zhang-SDU/cst-project/blob/main/SM3/sm3_birthday_attack/result.png)
 
