@@ -10,67 +10,67 @@
 
 ## SM3：
 
-✅**Project 1: implement the naïve birthday attack of reduced SM3**
+    ✅**Project 1: implement the naïve birthday attack of reduced SM3**
 
-✅**Project 2: implement the Rho method of reduced SM3**
+    ✅**Project 2: implement the Rho method of reduced SM3**
 
-✅**Project 3: implement length extension attack for SM3, SHA256, etc.**
+    ✅**Project 3: implement length extension attack for SM3, SHA256, etc.**
 
-✅**Project 4: do your best to optimize SM3 implementation (software)**(协作:张卓龙阅读论文及撰写小部分代码,刘阳完成代码撰写)                
+    ✅**Project 4: do your best to optimize SM3 implementation (software)**(协作:张卓龙阅读论文及撰写小部分代码,刘阳完成代码撰写)                
 
-✅**Project 5: Impl Merkle Tree following RFC6962**(协作:张卓龙阅读RFC文档及撰写小部分代码,刘阳完成代码撰写)                  
+    ✅**Project 5: Impl Merkle Tree following RFC6962**(协作:张卓龙阅读RFC文档及撰写小部分代码,刘阳完成代码撰写)                  
 
-Project 6: Try to Implement this scheme
+    Project 6: Try to Implement this scheme
 
 ## SM2：
 
-✅**Project 7: report on the application of this deduce technique in Ethereum with ECDSA**
+    ✅**Project 7: report on the application of this deduce technique in Ethereum with ECDSA**
 
-✅**Project 8: impl sm2 with RFC6979**
+    ✅**Project 8: impl sm2 with RFC6979**
 
-✅**Project 9: verify the above pitfalls with proof-of-concept code**
+    ✅**Project 9: verify the above pitfalls with proof-of-concept code**
 
-✅**Project 10: Implement the above ECMH scheme**
+    ✅**Project 10: Implement the above ECMH scheme**
 
 Project 11: Implement a PGP scheme with SM2
 
-✅**Project 12: implement sm2 2P sign with real network communication**   
+    ✅**Project 12: implement sm2 2P sign with real network communication**   
 
-✅**Project 13: implement sm2 2P decrypt with real network communication**
+    ✅**Project 13: implement sm2 2P decrypt with real network communication**
 
-✅**Project 14: PoC impl of the scheme, or do implement analysis by Google**
+    ✅**Project 14: PoC impl of the scheme, or do implement analysis by Google**
 
 
 
 
 ## Bitcoin-public：
 
-Project 15: send a tx on Bitcoin testnet, and parse the tx data down to every bit, better write script yourself
+    Project 15: send a tx on Bitcoin testnet, and parse the tx data down to every bit, better write script yourself
 
-✅**Project 16: forge a signature to pretend that you are Satoshi**
+    ✅**Project 16: forge a signature to pretend that you are Satoshi**
 
 ## Eth-public：
 
-Project 17: research report on MPT
+    Project 17: research report on MPT
 
 ## Real-world-cryptanalysies：
 
-Project 18: Find a key with hash value “\*sdu_cst_20220610\*” under a message composed of \*your name\* followed by \*your student ID\*. For example, “\*San Zhan 202000460001\*”
+    Project 18: Find a key with hash value “\*sdu_cst_20220610\*” under a message composed of \*your name\* followed by \*your student ID\*. For example, “\*San Zhan 202000460001\*”
 
-✅**Project 19: Find a 64-byte message under some k fulfilling that their hash value is symmetrical**
+    ✅**Project 19: Find a 64-byte message under some k fulfilling that their hash value is symmetrical**
 
 
 ## Real-world-ZK：
 
-Project 20: Write a circuit to prove that your CET6 grade is larger than 425. 
+    Project 20: Write a circuit to prove that your CET6 grade is larger than 425. 
 
-a.Your grade info is like (cn_id, grade, year, sig_by_moe). These grades are published as commitments onchain by MoE. 
+    a.Your grade info is like (cn_id, grade, year, sig_by_moe). These grades are published as commitments onchain by MoE. 
 
-b.When you got an interview from an employer, you can prove to them that you have passed the exam without letting them know the exact grade. 
+    b.When you got an interview from an employer, you can prove to them that you have passed the exam without letting them know the exact grade. 
 
-The commitment scheme used by MoE is SHA256-based. 
+    The commitment scheme used by MoE is SHA256-based. 
 
-a. commit = SHA256(cn_id, grade, year, sig_by_moe, r)    
+    a. commit = SHA256(cn_id, grade, year, sig_by_moe, r)    
 
 ## 参考指南 
 该README的编写参考https://github.com/MaxIkaros/Cyberspace-Security-Innovation-and-Entrepreneurship-Practice-Course
