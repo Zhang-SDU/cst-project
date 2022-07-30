@@ -12,7 +12,7 @@
  
  
 
- **实验原理**
+ ## 实验原理
 
     1.Bitcoin’s Merkle Tree
 
@@ -30,7 +30,7 @@
 
     添加tree.h、sha256.h、node.h作为头文件，运行merkle_tree.cpp即可
 
-**代码说明和运行结果**
+## 代码说明和运行结果
 
     代码基于Bitcoin’s Merkle Tree进行改写，而二者的实现差异主要在构建Merkle Tree的过程中：
 
