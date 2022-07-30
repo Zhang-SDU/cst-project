@@ -3,7 +3,7 @@
 山东大学网络空间安全学院（研究院）2022年网络空间安全创新创业实践课程相关project
 
 ## 项目说明:        
-    1. 完成人:201900180019  张卓龙     git账户名称:Zhang-SDU    (Project4、5、9与刘阳 ShangWuYangLiu 共同完成)       
+    1. 完成人:201900180019  张卓龙     git账户名称:Zhang-SDU    (Project4、5、9、19与刘阳 ShangWuYangLiu 共同完成)       
     2. 各项目简介在各项目README中介绍        
     3. ✅表示已完成，其余则未完成      完成情况:一共完成14个project
     4. 项目分别由python语言、C语言完成,代码可分别在Pycharm、VS中运行           
@@ -28,7 +28,7 @@
 
     ✅**Project 8: impl sm2 with RFC6979**
 
-    ✅**Project 9: verify the above pitfalls with proof-of-concept code** (写作:张卓龙完成代码撰写,刘阳负责手动推导)
+    ✅**Project 9: verify the above pitfalls with proof-of-concept code** (协作:张卓龙完成代码撰写,刘阳负责手动推导)
 
     ✅**Project 10: Implement the above ECMH scheme**
 
@@ -57,7 +57,7 @@ Project 11: Implement a PGP scheme with SM2
 
     Project 18: Find a key with hash value “\*sdu_cst_20220610\*” under a message composed of \*your name\* followed by \*your student ID\*. For example, “\*San Zhan 202000460001\*”
 
-    ✅**Project 19: Find a 64-byte message under some k fulfilling that their hash value is symmetrical**
+    ✅**Project 19: Find a 64-byte message under some k fulfilling that their hash value is symmetrical** (协作:张卓龙完成算法理解,刘阳代码撰写)
 
 
 ## Real-world-ZK：
