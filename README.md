@@ -3,11 +3,16 @@
 山东大学网络空间安全学院（研究院）2022年网络空间安全创新创业实践课程相关project
 
 ## 项目说明:        
-    1. 完成人:201900180019  张卓龙     git账户名称:Zhang-SDU    (Project4、5、9、19与刘阳 ShangWuYangLiu 共同完成)       
+    1. 完成人:201900180019  张卓龙     git账户名称:Zhang-SDU    (Project4、5、9、19与刘阳 ShangWuYangLiu 共同完成)     
+    
     2. 各项目简介在各项目README中介绍        
+    
     3. ppt中提及的project一共20个,在total_project_list.pdf文件中列出       
+    
     4. ✅表示已完成，其余则未完成      完成情况:一共完成14个project
+    
     5. 项目分别由python语言、C语言、C++语言完成,代码可分别在Pycharm、VS中运行           
+    
 
 ## SM3：
 
