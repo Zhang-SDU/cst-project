@@ -7,7 +7,7 @@
     2. 各项目简介在各项目README中介绍        
     3. ppt中提及的project一共20个,在total_project_list.pdf文件中列出       
     4. ✅表示已完成，其余则未完成      完成情况:一共完成14个project
-    5. 项目分别由python语言、C语言完成,代码可分别在Pycharm、VS中运行           
+    5. 项目分别由python语言、C语言、C++语言完成,代码可分别在Pycharm、VS中运行           
 
 ## SM3：
 
